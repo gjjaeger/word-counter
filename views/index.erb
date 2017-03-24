@@ -1,0 +1,17 @@
+<h1>Fill in a word</h1>
+  <form action='/display'>
+    <div class="form-group">
+      <label for="word">Your word</label>
+      <input id="word" name="word" class="form-control" type="text">
+    </div>
+    <div class="form-group">
+      <label for="sentence">Your sentence</label>
+      <input id="sentence" name="sentence" class="form-control" type="text">
+    </div>
+    <button type="submit" class="btn">Go!</button>
+  </form>
+
+  <div>
+    <p>Your word has been found <%= @word%> time(s) in your sentence</p>
+    <p>Your combination of letters has been found <%= @word2%> time(s) in your sentence</p>
+  </div>
