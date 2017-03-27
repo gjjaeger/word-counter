@@ -1,5 +1,7 @@
 # word-counter
 Was not able to call this word-count. Friday march 24th project
+Link to Heroku app:
+https://cryptic-waters-43805.herokuapp.com/
 
 # Word Count
 
